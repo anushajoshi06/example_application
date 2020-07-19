@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cubeimage"
+    tools:context=".Dashboard2">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="213dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="22dp"
+        android:fontFamily="@font/carter_one"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvAge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="213dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="@font/carter_one"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvPhone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/tvName" />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="224dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/carter_one"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/tvAge" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="212dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/carter_one"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvCountry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/tvPhone" />
+
+    <TextView
+        android:id="@+id/tvCountry"
+        android:layout_width="192dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="148dp"
+        android:fontFamily="@font/carter_one"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmail" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="407dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="130dp"
+        android:fontFamily="@font/carter_one"
+        android:gravity="center_horizontal"
+        android:text="USER DETAILS"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="93dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/carter_one"
+        android:text="AGE : "
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="86dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/carter_one"
+        android:text="NAME :"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="131dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/carter_one"
+        android:text="PHONENO. :"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="109dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="9dp"
+        android:fontFamily="@font/carter_one"
+        android:text="EMAIL_ID :"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="116dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="148dp"
+        android:fontFamily="@font/carter_one"
+        android:text="COUNTRY :"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+</android.support.constraint.ConstraintLayout>
